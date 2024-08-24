@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width:1326px) {
     .top {
         height: 20vh;
@@ -252,4 +253,260 @@
     .volume {
         margin-right: 70px;
     }
+=======
+@media (max-width:1326px) {
+    .top {
+        height: 20vh;
+    }
+
+    .bottom {
+        height: 74vh;
+        position: relative;
+    }
+
+    .songs {
+        height: 40vh;
+    }
+
+    .right {
+        margin-left: 2px;
+        max-height: 99vh;
+    }
+
+    .nav {
+        height: 70px;
+        width: 77%;
+    }
+
+    .button {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 986px) {
+    .top {
+        height: 20vh;
+    }
+
+    .bottom {
+        height: 75vh;
+    }
+
+    .right {
+        height: 95vh;
+    }
+
+    .playbar {
+        position: absolute;
+        bottom: 5px;
+    }
+
+    .close {
+        display: block;
+        width: 30px;
+        position: absolute;
+        right: 15px;
+        cursor: pointer;
+    }
+
+    .left {
+        background-color: black;
+        width: fit-content;
+        left: -100%;
+        position: absolute;
+        transition: all 1s;
+        z-index: 2;
+    }
+
+    .left-footer a {
+        padding: 2px;
+    }
+
+    .songs ul li {
+        font-size: 10px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .songs ul li img {
+        width: 20px;
+    }
+
+    .nav {
+        top: 0;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .down {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 880px) {
+    .top {
+        width: 25vw;
+    }
+
+    .bottom {
+        width: 25vw;
+    }
+
+    .playbar {
+        height: 90px;
+    }
+
+    .songinfo {
+        position: absolute;
+        bottom: 49px;
+
+    }
+}
+
+@media (max-width: 660px) {
+    .top {
+        width: 30vw;
+    }
+
+    .bottom {
+        width: 30vw;
+    }
+
+    .songs ul li img {
+        width: 18px;
+    }
+}
+
+@media (max-width: 540px) {
+    .top {
+        width: 32vw;
+    }
+
+    .bottom {
+        width: 32vw;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+
+    .songs ul li {
+        font-size: 8px;
+        padding: -10px;
+    }
+
+    .songs ul li img {
+        width: 14px;
+    }
+
+    .playbar-btn img {
+        width: 25px;
+    }
+
+    .volume img {
+        width: 18px;
+    }
+
+    .volume input {
+        width: 80px;
+        height: 3px;
+    }
+}
+
+@media (max-width: 500px) {
+    .top {
+        width: 35vw;
+        height: 20vh;
+    }
+
+    .bottom {
+        width: 35vw;
+        height: 74vh;
+    }
+
+    .songs {
+        height: 50vh;
+    }
+
+    .right {
+        max-height: 100vh;
+    }
+
+    .volume input {
+        width: 60px;
+        height: 3px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .top {
+        width: 92vw;
+    }
+
+    .bottom {
+        width: 92vw;
+    }
+
+    .line {
+        gap: 80px;
+    }
+
+    .songs ul li {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .songs ul li img {
+        width: 35px;
+    }
+
+    .left-footer a {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    .hamburger,
+    .arrow img {
+        width: 25px;
+    }
+
+    .signin,
+    .login {
+        font-size: 10px;
+    }
+
+    .card {
+        width: 85vw;
+        margin: 0;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+
+    .songinfo {
+        font-size: 12px;
+        position: absolute;
+        bottom: 52px;
+        left: 20px;
+
+    }
+
+    .songtime {
+        font-size: 12px;
+        position: absolute;
+        top: 22px;
+        right: 15px;
+    }
+
+    .volume {
+        margin-right: 70px;
+    }
+>>>>>>> b94c5de3d8fa0d9d2e82ad95eb6ae42085e6d1ca
 }
